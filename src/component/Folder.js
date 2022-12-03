@@ -11,6 +11,7 @@ const Folder = ({ explorer }) => {
             📁
           </span>
           <span className="filename">{explorer.name}</span>
+          <div></div>
         </div>
         <div style={{ display: expand ? "block" : "none", marginLeft: "8px" }}>
           {explorer.items.map((item) => (
